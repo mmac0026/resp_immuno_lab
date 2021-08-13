@@ -1,2 +1,3 @@
-# resp_immuno_lab
-Respiratory Immunology Laboratory, Monash University
+# Respiratory Immunology Laboratory
+
+This github page hosts the code for our website.
