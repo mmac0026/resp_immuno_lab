@@ -15,23 +15,42 @@ header {
 
 .banner h1 {
     font-weight: normal;
-    font-size: 42px;
+    font-size: 48px;
     color: white;
     position: absolute;
     padding-left: 20px;
-    padding-top: 20px;
 }
 
 .banner h4 {
     color: white;
     position: absolute;
     padding-left: 20px;
-    padding-top: 100px;
+    padding-top: 95px;
 }
 
 .banner p {
     color: white;
     position: absolute;
     padding-left: 20px;
-    padding-top: 125px;
+    padding-top: 120px;
+}
+
+.banner div {
+    width: 100%;
+    color: white;
+    padding-left;
+    font-size: 14px;
+}
+
+.banner div p.contact {
+    position: absolute;
+    padding-top: 155px;
+}
+
+#ben-email {
+    color: white;
+}
+
+#ben-email:hover {
+    color: darkblue;
 }
