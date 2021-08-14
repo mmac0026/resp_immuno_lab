@@ -91,9 +91,9 @@ nav a:hover {
 
 .content-area h2 {
     font-family: 'Signika', sans-serif;
-    letter-spacing: 4px;
-    padding-top: 30px;
-    font-size: 40px;
+    letter-spacing: 0.25vw;
+    padding-top: 1vw;
+    font-size: 2vw;
     margin: 0;
 }
 
