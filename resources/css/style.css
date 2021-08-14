@@ -1,5 +1,6 @@
 /* colours
-lightblue: #00cbd1 
+lightblue: #00cbd1
+lighterblue: #d1fcff
 lightcream: #ddd
 prussianblue: #1d3557
 */
@@ -21,10 +22,11 @@ header .wrapper {
 
 header {
     height: 5vw;
-    background: #1d3557;
+    background-color: #1d3557;
     width: 100vw;
     z-index: 12;
     position: fixed;
+    box-shadow: 0 0 20px #1d3557;
 }
 
 .logo {
@@ -87,18 +89,30 @@ nav a:hover {
     top: 25vw;
     background: #ddd;
     height: 200vh;
+    box-shadow: 0 0 20px #1d3557;
 }
 
-.content-area h2 {
+.main-wrapper {
     font-family: 'Signika', sans-serif;
-    letter-spacing: 0.25vw;
-    padding-top: 1vw;
-    font-size: 2vw;
-    margin: 0;
+    display: flex;
+    padding: 5px;
 }
 
-.content-area p {
-    padding: 2%;
-    font-family: 'Signika', sans-serif;
-    line-height: 1.2;
+.main-wrapper section, .main-wrapper aside {
+    padding: 20px;
+    background-color: #d1fcff;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.main-wrapper section {
+    flex: 1 0 0;
+}
+
+.main-wrapper aside {
+    flex: 0 0 200px;
+}
+
+.sidebar img {
+    width: 50%;
 }
